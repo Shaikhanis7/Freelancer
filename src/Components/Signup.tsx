@@ -1,4 +1,4 @@
-import React from 'react';
+
 import sigin from '../assets/img/Sign.png'
 import '../assets/css/Signup.css'
 import { FcGoogle } from "react-icons/fc";
