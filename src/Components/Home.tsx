@@ -1,9 +1,8 @@
 
-import { MdNightsStay } from 'react-icons/md';
-import { IoIosHome } from 'react-icons/io';
+
 import { GiHamburgerMenu } from "react-icons/gi";
-import React, { useState } from 'react';
-import { Container, Row, Col, Button, Offcanvas } from 'react-bootstrap';
+import { useState } from 'react';
+
 import { RxCross1 } from "react-icons/rx";
 import frontimg from '../assets/img/first.png'
 import { FaHtml5 } from "react-icons/fa6";
@@ -16,7 +15,7 @@ import { MdPostAdd } from "react-icons/md";
 import { FaComputer } from "react-icons/fa6";
 import { MdOutlinePayment } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import { CiPhone } from "react-icons/ci";
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaXTwitter } from "react-icons/fa6";

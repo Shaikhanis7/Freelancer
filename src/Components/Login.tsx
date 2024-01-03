@@ -1,10 +1,9 @@
 import '../assets/css/Login.css';
 import sigin from '../assets/img/login2.png';
-import { FaGoogle } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FcGoogle } from 'react-icons/fc';
 import { RiTwitterXLine } from 'react-icons/ri';
-import { useState,useEffect } from 'react';
+import { useState} from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';

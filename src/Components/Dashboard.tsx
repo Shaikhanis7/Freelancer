@@ -1,4 +1,4 @@
-import React, { useState ,ChangeEvent, useLayoutEffect} from 'react'
+import { useState ,ChangeEvent,} from 'react'
 import { CgProfile } from "react-icons/cg";
 import { LuLogOut } from "react-icons/lu";
 import { IoMdSettings } from "react-icons/io";
@@ -92,13 +92,9 @@ const Dashboard = () => {
     };
 
 
-    const[adduser,setAddUser]=useState(false);
+    
 
-    const toggleAddUser=()=>
-    {
-        setAddUser(true);
-    }
-
+    
     
   return (
     <>
@@ -115,7 +111,7 @@ const Dashboard = () => {
                     <div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90"></div>
                    
                     {isLoggedIn?(<></>):(<div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90 "></div>)}
-                    {isLoggedIn?(<div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90" onClick={()=>{toggleAddUser();navHome()}}><LuLogOut size={25}/>Back</div>):(<div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90  mt-3" onClick={()=>{toggleAddUser();navHome()}}><LuLogOut size={25}/>Back</div>)}
+                    {isLoggedIn?(<div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90" onClick={()=>{navHome()}}><LuLogOut size={25}/>Back</div>):(<div className="m-auto row sidemenu d-flex justify-content-center align-items-center w-90  mt-3" onClick={()=>{navHome()}}><LuLogOut size={25}/>Back</div>)}
                     
                 </div>
                 <div className=" col-11 Navbar">
